@@ -1,0 +1,113 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(215deg, rgba(243, 72, 72, 0.842) 11%, rgba(201,73,23,1) 45%, rgba(158,6,157,1) 100%);  
+    margin: 0;
+    padding: 0;
+    main{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        header{
+            background-color: rgba(255, 255, 255, 0.658);
+            width: 100%;
+            margin: 0;
+            border-bottom: solid 1px black;
+            box-shadow: 0 0 5px;
+            position: fixed;
+            margin-top: -45px;
+            backdrop-filter: blur(2px);
+            
+            
+            h1{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 35px;
+            }
+        }
+        
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 45px 0px 0px 0px;
+            
+
+            
+            div.user{
+                background: rgb(224, 214, 214); 
+                width: 175px;
+                height: 250px;
+                margin: 25px 15px;
+                padding: 0px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px;
+                
+
+                &:hover{
+                    div.FirstInf{
+                        img{
+                            width: 90px;
+                            margin: 10px 0px 0px 45px;
+                            border-radius: 50px;
+                        }
+                        h4{
+                            font-size: 18px;
+                            text-align: center;
+                            margin: 0 5px 0 5px;
+                        }
+                    }
+
+                    div.SecInf{
+                    display: block;
+                    }
+                }
+                div.FirstInf{
+                    img{
+                        width: 120px;
+                        margin: 25px 0px 0px 30px;
+                        border-radius: 75px;
+                        border: solid 0.1px black
+                    }
+
+                    h4{
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                }
+                div.SecInf{
+                    display: none;
+                    // background-color: rgb(238, 232, 232);
+                    padding: 5px;
+                    transition: display 1.5s;
+                    
+                    p.age{
+                        span{
+                            vertical-align: bottom;
+                        }
+                        font-size: 17px;
+                        margin: 5px 0 12.5px 0;   
+                    }
+
+                    p.location{
+                        span{
+                            vertical-align: bottom;
+                        }
+                        font-size: 17px;
+                        margin: 12.5px 0 12.5px 0;
+                    }
+
+                    p.phone{
+                        span{
+                            vertical-align: bottom;
+                        }
+                        font-size: 17px;
+                        margin: 12.5px 0 0px 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+body {
+  background: white;
+  background: linear-gradient(215deg, rgba(243, 72, 72, 0.842) 11%, #c94917 45%, #9e069d 100%);
+  margin: 0;
+  padding: 0;
+}
+
+body main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body main header {
+  background-color: rgba(255, 255, 255, 0.658);
+  width: 100%;
+  margin: 0;
+  border-bottom: solid 1px black;
+  -webkit-box-shadow: 0 0 5px;
+          box-shadow: 0 0 5px;
+  position: fixed;
+  margin-top: -45px;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+body main header h1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+}
+
+body main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 45px 0px 0px 0px;
+}
+
+body main section div.user {
+  background: #e0d6d6;
+  width: 175px;
+  height: 250px;
+  margin: 25px 15px;
+  padding: 0px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
+}
+
+body main section div.user:hover div.FirstInf img {
+  width: 90px;
+  margin: 10px 0px 0px 45px;
+  border-radius: 50px;
+}
+
+body main section div.user:hover div.FirstInf h4 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 5px 0 5px;
+}
+
+body main section div.user:hover div.SecInf {
+  display: block;
+}
+
+body main section div.user div.FirstInf img {
+  width: 120px;
+  margin: 25px 0px 0px 30px;
+  border-radius: 75px;
+  border: solid 0.1px black;
+}
+
+body main section div.user div.FirstInf h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+body main section div.user div.SecInf {
+  display: none;
+  padding: 5px;
+  -webkit-transition: display 1.5s;
+  transition: display 1.5s;
+}
+
+body main section div.user div.SecInf p.age {
+  font-size: 17px;
+  margin: 5px 0 12.5px 0;
+}
+
+body main section div.user div.SecInf p.age span {
+  vertical-align: bottom;
+}
+
+body main section div.user div.SecInf p.location {
+  font-size: 17px;
+  margin: 12.5px 0 12.5px 0;
+}
+
+body main section div.user div.SecInf p.location span {
+  vertical-align: bottom;
+}
+
+body main section div.user div.SecInf p.phone {
+  font-size: 17px;
+  margin: 12.5px 0 0px 0;
+}
+
+body main section div.user div.SecInf p.phone span {
+  vertical-align: bottom;
+}
+/*# sourceMappingURL=user.css.map */
